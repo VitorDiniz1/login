@@ -1,50 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login  e Register </title>
-    <link rel="stylesheet" href="style.css">
+    <title>Botão WhatsApp com Popup</title>
 
 </head>
+
 <body>
-    <div class="wrapper">
-        <span class="icon-close" ><ion-icon name="close-outline"></ion-icon></span>
-        <div class="form-box login ">
-            <h2>Login</h2>
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
-                    <label>Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
-                    <label>Senha</label>
-                </div>
-                <div class="remember-forgot">
-                    <label>
-                        <input type="checkbox">
-                        Remember me
-                    </label>
-                        <a href="#">Forgot password?</a>
-                </div>
-                <button type="submit" class="btn">Login</button>
-                <div class="login-register">
-                    <p>
-                        Don´t have an account? <a href="#" class="register-link">Register</a> 
-                    </p>
 
+    <div class="whatsapp-container">
+        <div class="whatsapp-popup">
+            <div class="popup-header">
+                <img src="https://via.placeholder.com/42" alt="Foto Perfil">
+                <div class="header-info">
+                    <h4>Nome da Empresa</h4>
+                    <span>Online</span>
                 </div>
-            </form>
+            </div>
+            <div class="popup-message">
+                Olá! 👋<br>
+                Como podemos te ajudar?
+            </div>
+            <div class="popup-button">
+                <a href="https://wa.me/5511999999999" target="_blank">Chat no WhatsApp</a>
+            </div>
         </div>
-        
 
-
+        <div class="whatsapp-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </div>
     </div>
-    <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
